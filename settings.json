@@ -12,7 +12,7 @@
     "list.inactiveSelectionBackground": "#9aa5ce",
     "list.focusBackground": "#9aa5ce",
     "list.hoverBackground": "#9aa5ce",
-    "terminalCursor.foreground": "#f7768e",
+    "terminalCursor.foreground": "#f7768e"
   },
   "editor.hideCursorInOverviewRuler": true,
   "editor.minimap.enabled": false,
@@ -46,7 +46,7 @@
     ".sidebar .title-label h2": "line-height: 2.8 !important",
     ".monaco-editor .scroll-decoration": "display: none !important",
     ".monaco-scrollable-element > .shadow.top": "display: none !important",
-    ".monaco-split-view2 > .monaco-scrollable-element > .split-view-container": "background: #191521 !important",
+    ".monaco-split-view2 > .monaco-scrollable-element > .split-view-container": "background: #191521 !important"
   },
   "editor.fontSize": 14,
   "chat.editor.fontFamily": "MesloLGS NF",
@@ -77,5 +77,5 @@
     ],
     "height": 30
   },
-  "editor.fontFamily": "MesloLGS NF"
+  "editor.fontFamily": "Victor Mono"
 }
