@@ -1,10 +1,15 @@
 {
+  // === Theme and Icon Settings ===
   "workbench.colorTheme": "Tokyo Night AltSynt",
   "workbench.iconTheme": "material-icon-theme",
+
+  // === UI Layout Settings ===
   "workbench.sideBar.location": "right",
   "workbench.activityBar.location": "hidden",
   "workbench.statusBar.visible": false,
   "workbench.editor.showTabs": "none",
+
+  // === Custom Colorizations ===
   "workbench.colorCustomizations": {
     "editorSuggestWidget.selectedBackground": "#a9b1d6",
     "sideBar.background": "#1a1b26",
@@ -14,10 +19,16 @@
     "list.hoverBackground": "#9aa5ce",
     "terminalCursor.foreground": "#f7768e"
   },
+
+  // === Editor Preferences ===
   "editor.hideCursorInOverviewRuler": true,
   "editor.minimap.enabled": false,
   "editor.glyphMargin": false,
   "editor.folding": false,
+  "editor.renderLineHighlight": "none",
+  "editor.mouseWheelZoom": true,
+
+  // === Electron and Header Customizations ===
   "apc.electron": {
     "titleBarStyle": "hiddenInset",
     "trafficLightPosition": {
@@ -28,6 +39,8 @@
   "apc.header": {
     "height": 36
   },
+
+  // === Styling Customizations ===
   "apc.stylesheet": {
     ".title-label > h2": "display: none",
     ".title-actions": "display: none",
@@ -41,34 +54,44 @@
     ".sidebar": "border: none !important",
     ".monaco-editor .cursors-layer .cursor": "background-image: linear-gradient(135deg, #67D0FF 10%, #C45DFF 100%)",
     ".quick-input-list-row div": "display: flex !important; align-items: center !important",
-    ".panel .composite.title": "visibility: hidden !important",
     ".title.show-file-icons .label-container .monaco-icon-label.file-icon": "padding-bottom: 6px !important",
     ".sidebar .title-label h2": "line-height: 2.8 !important",
     ".monaco-editor .scroll-decoration": "display: none !important",
-    ".monaco-scrollable-element > .shadow.top": "display: none !important",
-    ".monaco-split-view2 > .monaco-scrollable-element > .split-view-container": "background: #1a1b26 !important"
+    ".monaco-scrollable-element > .shadow.top": "display: none !important"
   },
-  "editor.fontSize": 14,
-  "chat.editor.fontFamily": "MesloLGS NF",
-  "editor.fontLigatures": true,
-  "editor.renderLineHighlight": "none",
-  "editor.mouseWheelZoom": true,
+
+  // === Workbench Layout and Behavior ===
   "workbench.layoutControl.type": "menu",
   "workbench.editor.limit.enabled": true,
   "workbench.editor.limit.value": 1,
   "workbench.editor.limit.perEditorGroup": true,
+
+  // === File and Auto-Save Settings ===
   "files.autoSave": "onWindowChange",
   "breadcrumbs.enabled": false,
+
+  // === Render and Scrollbar Preferences ===
   "editor.renderControlCharacters": false,
   "editor.scrollbar.verticalScrollbarSize": 2,
   "editor.scrollbar.horizontalScrollbarSize": 2,
   "editor.scrollbar.vertical": "hidden",
   "editor.scrollbar.horizontal": "hidden",
+
+  // === Explorer Preferences ===
   "workbench.layoutControl.enabled": false,
   "explorer.confirmDragAndDrop": false,
   "explorer.confirmDelete": false,
   "explorer.compactFolders": false,
+
+  // === Font Settings ===
   "apc.font.family": "MesloLGS NF",
+  "chat.editor.fontFamily": "MesloLGS NF",
+  "terminal.integrated.fontFamily": "MesloLGS NF",
+  "editor.fontSize": 14,
+  "editor.fontFamily": "Victor Mono",
+  "editor.fontLigatures": true,
+
+  // === List Row Customizations ===
   "apc.listRow": {
     "lists": [
       "explorer-folders-view",
@@ -76,6 +99,5 @@
       "results"
     ],
     "height": 30
-  },
-  "editor.fontFamily": "Victor Mono"
+  }
 }
