@@ -8,6 +8,8 @@
   "workbench.activityBar.location": "hidden",
   "workbench.statusBar.visible": false,
   "workbench.editor.showTabs": "none",
+  "workbench.editor.editorActionsLocation": "hidden",
+  "window.commandCenter": false,
 
   // === Custom Colorizations ===
   "workbench.colorCustomizations": {
@@ -90,6 +92,7 @@
   "editor.fontSize": 14,
   "editor.fontFamily": "Victor Mono",
   "editor.fontLigatures": true,
+  "editor.lineHeight": 2,
 
   // === List Row Customizations ===
   "apc.listRow": {
