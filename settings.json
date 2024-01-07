@@ -89,8 +89,8 @@
   "apc.font.family": "MesloLGS NF",
   "chat.editor.fontFamily": "MesloLGS NF",
   "terminal.integrated.fontFamily": "MesloLGS NF",
-  "editor.fontSize": 14,
-  "editor.fontFamily": "Victor Mono",
+  "editor.fontSize": 15,
+  "editor.fontFamily": "Comic Shanns Mono",
   "editor.fontLigatures": true,
   "editor.lineHeight": 2,
 
