@@ -1,17 +1,77 @@
 {
-  // === Theme and Icon Settings ===
+  // Configurações gerais do Visual Studio Code
   "workbench.colorTheme": "Tokyo Night AltSynt",
-  "workbench.iconTheme": "material-icon-theme",
-
-  // === UI Layout Settings ===
-  "workbench.sideBar.location": "right",
+  "symbols.hidesExplorerArrows": false,
+  "workbench.iconTheme": "symbols",
+  "editor.fontFamily": "Victor Mono",
+  "editor.fontSize": 14,
+  "editor.lineHeight": 1.8,
+  "editor.renderLineHighlight": "gutter",
+  "editor.fontLigatures": true,
+  "workbench.editor.labelFormat": "short",
+  "explorer.compactFolders": false,
+  "breadcrumbs.enabled": false,
   "workbench.activityBar.location": "hidden",
+  "editor.minimap.enabled": false,
+  "editor.scrollbar.horizontal": "hidden",
+  "editor.scrollbar.vertical": "hidden",
+  "window.commandCenter": false,
+  "workbench.layoutControl.enabled": false,
+
+  // Configurações de estilo personalizado usando uma folha de estilo APC
+  "apc.stylesheet": {
+    ".title-label > h2": "display: none",
+    ".editor-actions": "display: none"
+  },
+
+  // Configurações do terminal
+  "terminal.integrated.fontFamily": "MesloLGS NF",
+
+  // Configurações da barra lateral e localização da barra de status
+  "workbench.sideBar.location": "right",
   "workbench.statusBar.visible": false,
+
+  // Configurações do editor de texto
   "workbench.editor.showTabs": "none",
   "workbench.editor.editorActionsLocation": "hidden",
-  "window.commandCenter": false,
+  "editor.hideCursorInOverviewRuler": true,
+  "editor.glyphMargin": false,
+  "editor.folding": false,
+  "editor.mouseWheelZoom": true,
 
-  // === Custom Colorizations ===
+  // Configurações de layout e limites de edição
+  "workbench.layoutControl.type": "menu",
+  "workbench.editor.limit.enabled": true,
+  "workbench.editor.limit.value": 1,
+  "workbench.editor.limit.perEditorGroup": true,
+
+  // Configurações de salvamento automático de arquivos
+  "files.autoSave": "onWindowChange",
+
+  // Configurações de fonte para componentes específicos
+  "apc.font.family": "MesloLGS NF",
+  "chat.editor.fontFamily": "MesloLGS NF",
+
+  // Configurações de lista de linha de altura específica
+  "apc.listRow": {
+    "lists": [
+      "explorer-folders-view",
+      "quick-input-list",
+      "results"
+    ],
+    "height": 30
+  },
+
+  // Configurações de renderização e tamanho da barra de rolagem
+  "editor.renderControlCharacters": false,
+  "editor.scrollbar.verticalScrollbarSize": 2,
+  "editor.scrollbar.horizontalScrollbarSize": 2,
+
+  // Configurações do explorador de arquivos
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+
+  // Configurações de personalização de cores
   "workbench.colorCustomizations": {
     "editorSuggestWidget.selectedBackground": "#a9b1d6",
     "sideBar.background": "#1a1b26",
@@ -20,87 +80,5 @@
     "list.focusBackground": "#9aa5ce",
     "list.hoverBackground": "#9aa5ce",
     "terminalCursor.foreground": "#f7768e"
-  },
-
-  // === Editor Preferences ===
-  "editor.hideCursorInOverviewRuler": true,
-  "editor.minimap.enabled": false,
-  "editor.glyphMargin": false,
-  "editor.folding": false,
-  "editor.renderLineHighlight": "none",
-  "editor.mouseWheelZoom": true,
-
-  // === Electron and Header Customizations ===
-  "apc.electron": {
-    "titleBarStyle": "hiddenInset",
-    "trafficLightPosition": {
-      "x": 11,
-      "y": 10
-    }
-  },
-  "apc.header": {
-    "height": 36
-  },
-
-  // === Styling Customizations ===
-  "apc.stylesheet": {
-    ".title-label > h2": "display: none",
-    ".title-actions": "display: none",
-    ".editor-actions": "display: none",
-    ".nosidebar .inline-tabs-placeholder": "width: 75px",
-    ".quick-input-widget.show-file-icons, .editor-widget.find-widget": "box-shadow: none !important",
-    ".filematch .monaco-icon-label:before, .custom-list-row.results .monaco-list-row .monaco-icon-label:before": "background-position: 0 bottom !important",
-    ".filematch .monaco-count-badge": "padding: 5px 6px 0 6px !important",
-    ".sidebar .title-label": "padding: 0 !important",
-    ".monaco-workbench .monaco-list:not(.element-focused):focus:before": "outline: none !important",
-    ".sidebar": "border: none !important",
-    ".monaco-editor .cursors-layer .cursor": "background-image: linear-gradient(135deg, #67D0FF 10%, #C45DFF 100%)",
-    ".quick-input-list-row div": "display: flex !important; align-items: center !important",
-    ".title.show-file-icons .label-container .monaco-icon-label.file-icon": "padding-bottom: 6px !important",
-    ".sidebar .title-label h2": "line-height: 2.8 !important",
-    ".monaco-editor .scroll-decoration": "display: none !important",
-    ".monaco-scrollable-element > .shadow.top": "display: none !important"
-  },
-
-  // === Workbench Layout and Behavior ===
-  "workbench.layoutControl.type": "menu",
-  "workbench.editor.limit.enabled": true,
-  "workbench.editor.limit.value": 1,
-  "workbench.editor.limit.perEditorGroup": true,
-
-  // === File and Auto-Save Settings ===
-  "files.autoSave": "onWindowChange",
-  "breadcrumbs.enabled": false,
-
-  // === Render and Scrollbar Preferences ===
-  "editor.renderControlCharacters": false,
-  "editor.scrollbar.verticalScrollbarSize": 2,
-  "editor.scrollbar.horizontalScrollbarSize": 2,
-  "editor.scrollbar.vertical": "hidden",
-  "editor.scrollbar.horizontal": "hidden",
-
-  // === Explorer Preferences ===
-  "workbench.layoutControl.enabled": false,
-  "explorer.confirmDragAndDrop": false,
-  "explorer.confirmDelete": false,
-  "explorer.compactFolders": false,
-
-  // === Font Settings ===
-  "apc.font.family": "MesloLGS NF",
-  "chat.editor.fontFamily": "MesloLGS NF",
-  "terminal.integrated.fontFamily": "MesloLGS NF",
-  "editor.fontSize": 15,
-  "editor.fontFamily": "Comic Shanns Mono",
-  "editor.fontLigatures": true,
-  "editor.lineHeight": 2,
-
-  // === List Row Customizations ===
-  "apc.listRow": {
-    "lists": [
-      "explorer-folders-view",
-      "quick-input-list",
-      "results"
-    ],
-    "height": 30
   }
 }
