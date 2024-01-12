@@ -1,11 +1,12 @@
 {
-  // Configurações gerais do Visual Studio Code
+  // General Visual Studio Code settings
   "workbench.colorTheme": "Tokyo Night AltSynt",
   "symbols.hidesExplorerArrows": false,
   "workbench.iconTheme": "symbols",
   "editor.fontFamily": "Victor Mono",
   "editor.fontSize": 14,
   "editor.lineHeight": 1.8,
+  "editor.rulers": [80, 120],
   "editor.renderLineHighlight": "gutter",
   "editor.fontLigatures": true,
   "workbench.editor.labelFormat": "short",
@@ -18,20 +19,20 @@
   "window.commandCenter": false,
   "workbench.layoutControl.enabled": false,
 
-  // Configurações de estilo personalizado usando uma folha de estilo APC
+  // Custom styling using an APC stylesheet
   "apc.stylesheet": {
     ".title-label > h2": "display: none",
     ".editor-actions": "display: none"
   },
 
-  // Configurações do terminal
+  // Terminal settings
   "terminal.integrated.fontFamily": "MesloLGS NF",
 
-  // Configurações da barra lateral e localização da barra de status
+  // Sidebar and status bar location settings
   "workbench.sideBar.location": "right",
   "workbench.statusBar.visible": false,
 
-  // Configurações do editor de texto
+  // Text editor settings
   "workbench.editor.showTabs": "none",
   "workbench.editor.editorActionsLocation": "hidden",
   "editor.hideCursorInOverviewRuler": true,
@@ -39,20 +40,20 @@
   "editor.folding": false,
   "editor.mouseWheelZoom": true,
 
-  // Configurações de layout e limites de edição
+  // Layout and editing limits settings
   "workbench.layoutControl.type": "menu",
   "workbench.editor.limit.enabled": true,
   "workbench.editor.limit.value": 1,
   "workbench.editor.limit.perEditorGroup": true,
 
-  // Configurações de salvamento automático de arquivos
+  // Automatic file saving settings
   "files.autoSave": "onWindowChange",
 
-  // Configurações de fonte para componentes específicos
+  // Font settings for specific components
   "apc.font.family": "MesloLGS NF",
   "chat.editor.fontFamily": "MesloLGS NF",
 
-  // Configurações de lista de linha de altura específica
+  // Specific list row height settings
   "apc.listRow": {
     "lists": [
       "explorer-folders-view",
@@ -62,16 +63,16 @@
     "height": 30
   },
 
-  // Configurações de renderização e tamanho da barra de rolagem
+  // Rendering and scrollbar size settings
   "editor.renderControlCharacters": false,
   "editor.scrollbar.verticalScrollbarSize": 2,
   "editor.scrollbar.horizontalScrollbarSize": 2,
 
-  // Configurações do explorador de arquivos
+  // File explorer settings
   "explorer.confirmDragAndDrop": false,
   "explorer.confirmDelete": false,
 
-  // Configurações de personalização de cores
+  // Color customization settings
   "workbench.colorCustomizations": {
     "editorSuggestWidget.selectedBackground": "#a9b1d6",
     "sideBar.background": "#1a1b26",
