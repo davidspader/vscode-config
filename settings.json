@@ -1,77 +1,25 @@
 {
-  // General Visual Studio Code settings
+  // Appearance and Theme
   "workbench.colorTheme": "Tokyo Night AltSynt",
   "symbols.hidesExplorerArrows": false,
   "workbench.iconTheme": "symbols",
   "editor.fontFamily": "Victor Mono",
-  "editor.fontSize": 14,
-  "editor.lineHeight": 1.8,
+  "terminal.integrated.fontFamily": "MesloLGS NF",
+  "editor.fontSize": 13,
+  "editor.lineHeight": 2,
   "editor.renderLineHighlight": "gutter",
   "editor.fontLigatures": true,
-  "workbench.editor.labelFormat": "short",
   "explorer.compactFolders": false,
   "breadcrumbs.enabled": false,
+
+  // Activity Bar and Navigation
   "workbench.activityBar.location": "hidden",
-  "editor.minimap.enabled": false,
-  "editor.scrollbar.horizontal": "hidden",
-  "editor.scrollbar.vertical": "hidden",
-  "window.commandCenter": false,
-  "workbench.layoutControl.enabled": false,
-
-  // Custom styling using an APC stylesheet
-  "apc.stylesheet": {
-    ".title-label > h2": "display: none",
-    ".editor-actions": "display: none"
-  },
-
-  // Terminal settings
-  "terminal.integrated.fontFamily": "MesloLGS NF",
-
-  // Sidebar and status bar location settings
   "workbench.sideBar.location": "right",
   "workbench.statusBar.visible": false,
-
-  // Text editor settings
-  "workbench.editor.showTabs": "none",
+  "workbench.editor.showTabs": "multiple",
   "workbench.editor.editorActionsLocation": "hidden",
-  "editor.hideCursorInOverviewRuler": true,
-  "editor.glyphMargin": false,
-  "editor.folding": false,
-  "editor.mouseWheelZoom": true,
 
-  // Layout and editing limits settings
-  "workbench.layoutControl.type": "menu",
-  "workbench.editor.limit.enabled": true,
-  "workbench.editor.limit.value": 1,
-  "workbench.editor.limit.perEditorGroup": true,
-
-  // Automatic file saving settings
-  "files.autoSave": "onWindowChange",
-
-  // Font settings for specific components
-  "apc.font.family": "MesloLGS NF",
-  "chat.editor.fontFamily": "MesloLGS NF",
-
-  // Specific list row height settings
-  "apc.listRow": {
-    "lists": [
-      "explorer-folders-view",
-      "quick-input-list",
-      "results"
-    ],
-    "height": 30
-  },
-
-  // Rendering and scrollbar size settings
-  "editor.renderControlCharacters": false,
-  "editor.scrollbar.verticalScrollbarSize": 2,
-  "editor.scrollbar.horizontalScrollbarSize": 2,
-
-  // File explorer settings
-  "explorer.confirmDragAndDrop": false,
-  "explorer.confirmDelete": false,
-
-  // Color customization settings
+  // Color Customizations
   "workbench.colorCustomizations": {
     "editorSuggestWidget.selectedBackground": "#a9b1d6",
     "sideBar.background": "#1a1b26",
@@ -80,5 +28,21 @@
     "list.focusBackground": "#9aa5ce",
     "list.hoverBackground": "#9aa5ce",
     "terminalCursor.foreground": "#f7768e"
-  }
+  },
+
+  // Text Editor Settings
+  "editor.minimap.enabled": false,
+  "editor.rulers": [80, 120],
+  "editor.hideCursorInOverviewRuler": true,
+  "editor.glyphMargin": false,
+  "editor.folding": false,
+  "editor.mouseWheelZoom": true,
+
+  // Git Settings
+  "git.openRepositoryInParentFolders": "always",
+
+  // General Settings
+  "window.commandCenter": false,
+  "workbench.layoutControl.enabled": false,
+  "files.autoSave": "onWindowChange"
 }
